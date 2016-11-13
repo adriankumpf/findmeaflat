@@ -798,7 +798,13 @@ reduce-component@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/reduce-component/-/reduce-component-1.0.1.tgz#e0c93542c574521bea13df0f9488ed82ab77c5da"
 
-request@^2.55.0:
+request-x-ray:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/request-x-ray/-/request-x-ray-0.1.4.tgz#58f5401b4f5bd0d44275c36a4659961921bdd8c1"
+  dependencies:
+    request "^2.74.0"
+
+request@^2.55.0, request@^2.74.0:
   version "2.78.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.78.0.tgz#e1c8dec346e1c81923b24acdb337f11decabe9cc"
   dependencies:
