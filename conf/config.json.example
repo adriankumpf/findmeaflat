@@ -1,10 +1,15 @@
 {
-    "city": "Berlin",
-    "cityKey": 8,
-    "maxRent": 9999,
-    "minSize": 999,
-    "wantedDistricts": [
-        "Schöneberg",
-        "Wedding",
-    ]
+  "blacklist": [
+    "swap",
+    "tausch",
+    "wg"
+  ],
+  "city": "Berlin",
+  "cityKey": 8,
+  "maxRent": 9999,
+  "minSize": 999,
+  "wantedDistricts": [
+    "Schöneberg",
+  "Wedding",
+  ]
 }
