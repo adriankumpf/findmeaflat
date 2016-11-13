@@ -1,0 +1,12 @@
+{
+  "name": "findmeaflat",
+  "version": "0.0.1",
+  "description": "Help me find a flat in Berlin!",
+  "main": "index.js",
+  "author": "Adrian Kumpf <adrian.kumpf@posteo.de>",
+  "license": "MIT",
+  "dependencies": {
+    "got": "^6.6.3",
+    "x-ray": "^2.3.1"
+  }
+}
