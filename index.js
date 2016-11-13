@@ -1,1 +1,3 @@
-require('./lib/flatFinder').run()
+setInterval(() => {
+  require('./lib/flatFinder').run();
+}, 10*60*1000);

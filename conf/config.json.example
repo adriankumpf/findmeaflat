@@ -8,6 +8,10 @@
   "cityKey": 8,
   "maxRent": 9999,
   "minSize": 999,
+  "telegram": {
+    "chatId": "yourChatId",
+    "token": "yourToken"
+  },
   "wantedDistricts": [
     "Schöneberg",
   "Wedding",
