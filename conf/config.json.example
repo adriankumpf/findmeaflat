@@ -4,16 +4,22 @@
     "tausch",
     "wg"
   ],
-  "city": "Berlin",
-  "cityKey": 8,
-  "maxRent": 9999,
-  "minSize": 999,
+  "immoscout": {
+    "url":
+      "https://www.immobilienscout24.de/Suche/S-2/Wohnung-Miete/Berlin/Berlin/Wedding-Wedding_Schoeneberg-Schoeneberg/-/99,00-/EURO--9999,00/-/-/false"
+  },
   "telegram": {
     "chatId": "yourChatId",
     "token": "yourToken"
   },
-  "wantedDistricts": [
-    "Schöneberg",
-  "Wedding",
-  ]
+  "wggesucht": {
+    "city": "Berlin",
+    "cityKey": 8,
+    "maxRent": 9999,
+    "minSize": 99,
+    "wantedDistricts": [
+      "Schöneberg",
+      "Wedding"
+    ]
+  }
 }

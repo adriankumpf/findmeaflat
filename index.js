@@ -1,3 +1,4 @@
 setInterval(() => {
-  require('./lib/flatFinder').run();
-}, 10*60*1000);
+  require('./lib/immoscout').run();
+  require('./lib/wgGesucht').run();
+}, 10 * 60 * 1000);
