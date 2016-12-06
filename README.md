@@ -1,7 +1,7 @@
 # FindMeAFlat
 
-Crawls Wg-Gesucht and Immoscout for new listings. Notifications are being sent
-via [Telegram](https://telegram.org).
+Crawls Wg-Gesucht, Immoscout and eBay Kleinanzeigen for new listings.
+Notifications are being sent via [Telegram](https://telegram.org).
 
 ## Installation
 
@@ -22,15 +22,14 @@ vim conf/config.json
   "immoscout": {
     "url": "https://www.immobilienscout24.de/Suche/S-2/Wohnung-Miete/Berlin/Berlin/Wedding-Wedding_Schoeneberg-Schoeneberg/-/99,00-/EURO--9999,00/-/-/false"
   },
+  "kleinanzeigen": {
+      "url": "https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/anzeige:angebote/preis::9999/wohnung/k0c203l3331+wohnung_mieten.qm_i:99,"
+  },
   "wggesucht": {
     "city": "Berlin",
     "cityKey": 8,
     "maxRent": 9999,
     "minSize": 99,
-    "wantedDistricts": [
-      "Wedding",
-      "Friedrichshain"
-    ]
   },
   "telegram": {
     "chatId": "yourChatId",
@@ -40,6 +39,10 @@ vim conf/config.json
     "swap",
     "tausch",
     "wg"
+  ],
+  "wantedDistricts": [
+    "Wedding",
+    "Friedrichshain"
   ]
 }
 ```
@@ -50,6 +53,10 @@ Create your custom search query on the official website. Then just copy and
 paste the whole URL.
 
 **Important:** Make sure to sort by newest listings!
+
+### Kleinanzeigen
+
+Create your custom search query here as well.
 
 ### WgGesucht
 
@@ -67,4 +74,5 @@ GET https://api.telegram.org/botYOUR_API_TOKEN/getUpdates`.
 
 ### Blacklist
 
-Listings which contain at least on of those words (ignoring case) are being blacklisted.
+Listings which contain at least on of those words (ignoring case, only whole
+words) are being blacklisted.
