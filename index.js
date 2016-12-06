@@ -1,5 +1,7 @@
+const sources = './lib/sources';
+
 setInterval(() => {
-  require('./lib/immoscout').run();
-  require('./lib/wgGesucht').run();
-  require('./lib/kleinanzeigen').run();
+  require('fs')
+    .readdirSync(sources)
+    .map(file => require(`${sources}/${file}`).run());
 }, 10 * 60 * 1000);
