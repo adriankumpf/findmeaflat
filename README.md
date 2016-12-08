@@ -22,6 +22,9 @@ vim conf/config.json
   "immoscout": {
     "url": "https://www.immobilienscout24.de/Suche/S-2/Wohnung-Miete/Berlin/Berlin/Wedding-Wedding_Schoeneberg-Schoeneberg/-/99,00-/EURO--9999,00/-/-/false"
   },
+  "immonet": {
+    "url": "http://www.immonet.de/immobiliensuche/sel.do?sroot=wohnung-mieten&marketingtype=2&parentcat=1&pageoffset=1&listsize=25&objecttype=1&locationname=Berlin&acid=&actype=&district=7605&district=7876&district=7879&district=7889&district=7899&district=7930&ajaxIsRadiusActive=false&sortby=19&suchart=1&radius=0&pcatmtypes=1_2&pCatMTypeStoragefield=1_2&parentcat=1&marketingtype=2&fromprice=&toprice=9999&fromarea=99&toarea=&fromplotarea=&toplotarea=&fromrooms=&torooms=&objectcat=-1&wbs=0&fromyear=&toyear=&fulltext=&absenden=Ergebnisse+anzeigen"
+  },
   "kleinanzeigen": {
       "url": "https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/anzeige:angebote/preis::9999/wohnung/k0c203l3331+wohnung_mieten.qm_i:99,"
   },
@@ -47,10 +50,10 @@ vim conf/config.json
 }
 ```
 
-### Immoscout
+### Immoscout & Immonet
 
-Create your custom search query on the official website. Then just copy and
-paste the whole URL.
+Create your custom search query. If you're looking for specific districts
+choose the respective filter options. Then just copy and paste the whole URL.
 
 **Important:** Make sure to sort by newest listings!
 
