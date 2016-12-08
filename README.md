@@ -1,7 +1,7 @@
 # FindMeAFlat
 
-Crawls Wg-Gesucht, Immoscout and eBay Kleinanzeigen for new listings.
-Notifications are being sent via [Telegram](https://telegram.org).
+Crawls popular german real estate portals for new listings. Notifications are
+being sent via [Telegram](https://telegram.org).
 
 ## Installation
 
@@ -24,6 +24,9 @@ vim conf/config.json
   },
   "immonet": {
     "url": "http://www.immonet.de/immobiliensuche/sel.do?sroot=wohnung-mieten&marketingtype=2&parentcat=1&pageoffset=1&listsize=25&objecttype=1&locationname=Berlin&acid=&actype=&district=7605&district=7876&district=7879&district=7889&district=7899&district=7930&ajaxIsRadiusActive=false&sortby=19&suchart=1&radius=0&pcatmtypes=1_2&pCatMTypeStoragefield=1_2&parentcat=1&marketingtype=2&fromprice=&toprice=9999&fromarea=99&toarea=&fromplotarea=&toplotarea=&fromrooms=&torooms=&objectcat=-1&wbs=0&fromyear=&toyear=&fulltext=&absenden=Ergebnisse+anzeigen"
+  },
+  "immowelt": {
+      "url": "https://www.immowelt.de/liste/berlin-alt-treptow/wohnungen/mieten?geoid=10811002000022%2C10811002000203%2C10811011000300%2C10811008000313%2C10811003000320%2C10811001000353&prima=510&eqid=-205&sort=createdate%2Bdesc"
   },
   "kleinanzeigen": {
       "url": "https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/anzeige:angebote/preis::9999/wohnung/k0c203l3331+wohnung_mieten.qm_i:99,"
@@ -50,10 +53,11 @@ vim conf/config.json
 }
 ```
 
-### Immoscout & Immonet
+### Immoscout, Immonet & Immowelt
 
-Create your custom search query. If you're looking for specific districts
-choose the respective filter options. Then just copy and paste the whole URL.
+Create your custom search queries. If you're looking for specific districts
+choose the corresponding filter options. Then just copy and paste the whole
+URL.
 
 **Important:** Make sure to sort by newest listings!
 
