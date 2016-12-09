@@ -10,6 +10,7 @@
     "lowdb": "^0.14.0",
     "node-telegram-bot-api": "^0.24.0",
     "request-x-ray": "^0.1.4",
+    "rootpath": "^0.1.2",
     "x-ray": "^2.3.1"
   }
 }

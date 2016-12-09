@@ -1,3 +1,5 @@
+require('rootpath')();
+
 const sources = './lib/sources';
 
 setInterval(function exec() {

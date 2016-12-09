@@ -925,6 +925,10 @@ request@^2.34, request@^2.55.0, request@^2.69.0, request@^2.74.0:
     tunnel-agent "~0.4.1"
     uuid "^3.0.0"
 
+rootpath@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/rootpath/-/rootpath-0.1.2.tgz#5b379a87dca906e9b91d690a599439bef267ea6b"
+
 sax@^1.1.4:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.1.tgz#7b8e656190b228e81a66aea748480d828cd2d37a"
