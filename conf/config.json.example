@@ -20,8 +20,9 @@
   },
   "immowelt": {
     "url":
-    "https://www.immowelt.de/liste/berlin-alt-treptow/wohnungen/mieten?geoid=10811002000022%2C10811002000203%2C10811011000300%2C10811008000313%2C10811003000320%2C10811001000353&prima=9999&eqid=-205&sort=createdate%2Bdesc"
+      "https://www.immowelt.de/liste/berlin-alt-treptow/wohnungen/mieten?geoid=10811002000022%2C10811002000203%2C10811011000300%2C10811008000313%2C10811003000320%2C10811001000353&prima=9999&eqid=-205&sort=createdate%2Bdesc"
   },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36",
   "telegram": {
     "chatId": "yourChatId",
     "token": "yourToken"
