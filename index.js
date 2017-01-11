@@ -1,10 +1,10 @@
 require('rootpath')();
 
-const sources = './lib/sources';
+const fs = require('fs');
+const path = './lib/sources';
+const sources = fs.readdirSync(path)
 
 setInterval(function exec() {
-  require('fs')
-    .readdirSync(sources)
-    .map(file => require(`${sources}/${file}`).run());
+  sources.forEach(source => require(`${path}/${source}`).run());
   return exec;
-}(), 10 * 60 * 1000);
+}(), 30 * 60 * 1000);
