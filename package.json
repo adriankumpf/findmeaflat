@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "got": "^6.7.1",
-    "lowdb": "^0.14.0",
+    "lowdb": "^0.15.5",
     "node-telegram-bot-api": "^0.27.0",
     "request-x-ray": "^0.1.4",
     "rootpath": "^0.1.2",
