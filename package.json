@@ -8,7 +8,7 @@
   "dependencies": {
     "got": "^6.7.1",
     "lowdb": "^0.14.0",
-    "node-telegram-bot-api": "^0.25.0",
+    "node-telegram-bot-api": "^0.27.0",
     "request-x-ray": "^0.1.4",
     "rootpath": "^0.1.2",
     "x-ray": "^2.3.1"
