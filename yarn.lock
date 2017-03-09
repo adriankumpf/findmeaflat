@@ -739,9 +739,9 @@ lodash@~2.4.1:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
 
-lowdb@^0.15.5:
-  version "0.15.5"
-  resolved "https://registry.yarnpkg.com/lowdb/-/lowdb-0.15.5.tgz#9ade105df8aa573692d1221622b85414fbf4fa96"
+lowdb@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/lowdb/-/lowdb-0.16.0.tgz#0e3fb37332fa6189eca2d864e7ad9dc989359866"
   dependencies:
     graceful-fs "^4.1.3"
     is-promise "^2.1.0"
@@ -1201,9 +1201,9 @@ x-ray-parse@^1.0.0, x-ray-parse@~1.0.1:
   dependencies:
     format-parser "0.0.2"
 
-x-ray@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/x-ray/-/x-ray-2.3.1.tgz#56ccdd00c52d8a40d49ed339cdb879747970d1da"
+x-ray@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/x-ray/-/x-ray-2.3.2.tgz#5d1ecc84b48a01ebea73f70a6fa0d1171bbc39e4"
   dependencies:
     batch "~0.5.2"
     chalk "~1.1.1"
