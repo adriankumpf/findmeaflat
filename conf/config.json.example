@@ -19,7 +19,7 @@
     "city": "Berlin",
     "cityKey": 8,
     "maxRent": 9999,
-    "minSize": 99,
+    "minSize": 99
   },
   "wantedDistricts": [
     "Wedding",
@@ -30,6 +30,6 @@
     "tausch",
     "wg"
   ],
-  "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36",
+  "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36"
 }
 
