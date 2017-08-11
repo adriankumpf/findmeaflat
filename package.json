@@ -2,6 +2,9 @@
   "name": "findmeaflat",
   "version": "0.0.1",
   "description": "Help me find a flat in Berlin!",
+  "scripts": {
+    "start": "node index.js"
+  },
   "main": "index.js",
   "author": "Adrian Kumpf <adrian.kumpf@posteo.de>",
   "license": "MIT",
