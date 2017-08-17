@@ -81,7 +81,7 @@ listings page for the respective city.
 #### Custom provider
 
 You can easily add a new provider by adding a new file under `lib/sources` or
-just write me a message :)
+just open an issue :)
 
 ### 3. Add Filters (optional)
 
