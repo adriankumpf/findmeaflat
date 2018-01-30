@@ -53,18 +53,20 @@ its entry from the configuration or set it to `false`.
 #### Ebay Kleinanzeigen, Immoscout, Immowelt and Immonet
 
 ```json
-"kleinanzeigen": {
-    "url": "https://www.ebay-kleinanzeigen.de/..."
+"providers": {
+  "kleinanzeigen": {
+      "url": "https://www.ebay-kleinanzeigen.de/..."
+  },
+  "immoscout": {
+    "url": "https://www.immobilienscout24.de/..."
+  },
+  "immowelt": {
+    "url": "https://www.immowelt.de/..."
+  },
+  "immonet": {
+    "url": "http://www.immonet.de/..."
+  },
 }
-"immoscout": {
-  "url": "https://www.immobilienscout24.de/..."
-},
-"immowelt": {
-  "url": "https://www.immowelt.de/..."
-},
-"immonet": {
-  "url": "http://www.immonet.de/..."
-},
 ```
 
 Go to the respective provider page and create your custom search queries by
@@ -76,11 +78,13 @@ the resulting listings page.
 #### WgGesucht
 
 ```json
-"wggesucht": {
-  "city": "Berlin",
-  "cityKey": 8,
-  "minSize": 99,
-  "maxRent": 9999,
+"providers": {
+  "wggesucht": {
+    "city": "Berlin",
+    "cityKey": 8,
+    "minSize": 99,
+    "maxRent": 9999,
+  }
 }
 ```
 

@@ -1,14 +1,16 @@
 require('rootpath')()
 
 const fs = require('fs')
-const path = './lib/sources'
 
-const sources = fs.readdirSync(path).map(src => require(`${path}/${src}`))
+const PATH = './lib/sources'
+const INTERVAL = 60 * 60 * 1000
+
+const sources = fs.readdirSync(PATH).map(src => require(`${PATH}/${src}`))
 
 function main () {
   Promise.all(sources.map(s => s.run().catch(console.error)))
 }
 
-setInterval(main, 60 * 60 * 1000)
+setInterval(main, INTERVAL)
 
 main()

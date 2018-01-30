@@ -10,7 +10,8 @@ COPY package.json .
 COPY yarn.lock .
 RUN yarn install
 
-COPY . .
+COPY lib/ lib/
+COPY index.js .
 
 RUN chown -R node:node /app
 USER node

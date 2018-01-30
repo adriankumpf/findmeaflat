@@ -1,25 +1,27 @@
 {
+  "providers": {
+    "immoscout": {
+      "url": "https://www.immobilienscout24.de/Suche/S-2/Wohnung-Miete/Berlin/Berlin/Wedding-Wedding_Schoeneberg-Schoeneberg/-/99,00-/EURO--9999,00/-/-/false"
+    },
+      "immonet": {
+        "url": "http://www.immonet.de/immobiliensuche/sel.do?sroot=wohnung-mieten&pageoffset=1&listsize=25&objecttype=1&locationname=Berlin&acid=&actype=&district=7605&sortby=19&suchart=1&fromprice=&toprice=9999"
+      },
+      "immowelt": {
+        "url": "https://www.immowelt.de/liste/berlin-alt-treptow/wohnungen/mieten?geoid=10811002000022%2C10811002000203%2C10811011000300%2C10811008000313%2C10811003000320%2C10811001000353&prima=510&eqid=-205&sort=createdate%2Bdesc"
+      },
+      "kleinanzeigen": {
+        "url": "https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/anzeige:angebote/preis::9999/wohnung/k0c203l3331+wohnung_mieten.qm_i:99,"
+      },
+      "wggesucht": {
+        "city": "Berlin",
+        "cityKey": 8,
+        "maxRent": 9999,
+        "minSize": 99
+      },
+  },
   "telegram": {
     "chatId": "yourChatId",
     "token": "yourToken"
-  },
-  "immoscout": {
-    "url": "https://www.immobilienscout24.de/Suche/S-2/Wohnung-Miete/Berlin/Berlin/Wedding-Wedding_Schoeneberg-Schoeneberg/-/99,00-/EURO--9999,00/-/-/false"
-  },
-  "immonet": {
-    "url": "http://www.immonet.de/immobiliensuche/sel.do?sroot=wohnung-mieten&pageoffset=1&listsize=25&objecttype=1&locationname=Berlin&acid=&actype=&district=7605&sortby=19&suchart=1&fromprice=&toprice=9999"
-  },
-  "immowelt": {
-      "url": "https://www.immowelt.de/liste/berlin-alt-treptow/wohnungen/mieten?geoid=10811002000022%2C10811002000203%2C10811011000300%2C10811008000313%2C10811003000320%2C10811001000353&prima=510&eqid=-205&sort=createdate%2Bdesc"
-  },
-  "kleinanzeigen": {
-      "url": "https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/anzeige:angebote/preis::9999/wohnung/k0c203l3331+wohnung_mieten.qm_i:99,"
-  },
-  "wggesucht": {
-    "city": "Berlin",
-    "cityKey": 8,
-    "maxRent": 9999,
-    "minSize": 99
   },
   "wantedDistricts": [
     "Wedding",
@@ -30,6 +32,6 @@
     "tausch",
     "wg"
   ],
-  "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36"
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
 }
 
