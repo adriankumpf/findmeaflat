@@ -3,6 +3,10 @@
 Crawls popular German real estate portals for new listings. Notifications are
 sent via [Telegram](https://telegram.org).
 
+## Prerequisites
+
+* > Node 8
+
 ## Usage
 
 Install the dependencies with `npm install`, modify the configuration file and
