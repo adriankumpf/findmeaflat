@@ -5,16 +5,20 @@ sent via [Telegram](https://telegram.org).
 
 ## Prerequisites
 
-* > Node 8
+* Docker / Node 8
 
 ## Usage
 
-Install the dependencies with `npm install`, modify the configuration file and
-then start the application:
+First, create a configuration file as described below.
+
+Then you can either run the application inside a Docker Container via
 
 ```
-npm start
+make
 ```
+
+Or just install the dependencies with `npm install`, then start the application
+with `npm start`.
 
 ## Configuration
 
@@ -43,7 +47,8 @@ GET https://api.telegram.org/botYOUR_API_TOKEN/getUpdates`.
 
 ### 2. Configure the providers
 
-Configure the providers like described below. To disable a provider just remove its entry from the configuration or set it to `false`.
+Configure the providers like described below. To disable a provider just remove
+its entry from the configuration or set it to `false`.
 
 #### Ebay Kleinanzeigen, Immoscout, Immowelt and Immonet
 

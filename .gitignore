@@ -1,5 +1,5 @@
+.DS_Store
+conf/config.json
+db/listing.json
 node_modules/
 npm-debug.log
-config.json
-ts.json
-.DS_Store

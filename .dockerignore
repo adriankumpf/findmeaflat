@@ -1,0 +1,7 @@
+.git/
+.gitignore
+Makefile
+README.md
+conf/config.json.example
+node_modules/
+
