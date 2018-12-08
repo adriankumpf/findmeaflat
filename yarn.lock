@@ -90,6 +90,10 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+bluebird@^3.4.7:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+
 boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
@@ -719,6 +723,10 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
 
+promise-polyfill@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-1.1.6.tgz#cd04eff46f5c95c3a7d045591d79b5e3e01f12d7"
+
 punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
@@ -840,6 +848,12 @@ steno@^0.4.1:
   resolved "https://registry.yarnpkg.com/steno/-/steno-0.4.4.tgz#071105bdfc286e6615c0403c27e9d7b5dcb855cb"
   dependencies:
     graceful-fs "^4.1.3"
+
+stream-to-string@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/stream-to-string/-/stream-to-string-1.1.0.tgz#39210b01317e6abb35e854538e013037b6a35940"
+  dependencies:
+    promise-polyfill "^1.1.6"
 
 string_decoder@~0.10.x:
   version "0.10.31"
@@ -980,11 +994,12 @@ x-ray-parse@^1.0.0, x-ray-parse@~1.0.1:
   dependencies:
     format-parser "0.0.2"
 
-x-ray@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/x-ray/-/x-ray-2.3.2.tgz#5d1ecc84b48a01ebea73f70a6fa0d1171bbc39e4"
+x-ray@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/x-ray/-/x-ray-2.3.3.tgz#15dc09faac09fa3946f3e1837bba546a24dc0f4b"
   dependencies:
     batch "~0.5.2"
+    bluebird "^3.4.7"
     chalk "~1.1.1"
     cheerio "~0.20.0"
     debug "~2.2.0"
@@ -992,6 +1007,7 @@ x-ray@^2.3.2:
     is-url "~1.2.0"
     isobject "~2.0.0"
     object-assign "~4.0.1"
+    stream-to-string "^1.1.0"
     x-ray-crawler "~2.0.1"
     x-ray-parse "~1.0.1"
 

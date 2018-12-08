@@ -1,4 +1,4 @@
-FROM node:8.9.4-alpine
+FROM node:10-alpine
 LABEL maintainer="adrian.kumpf@posteo.de"
 
 ENV NODE_ENV=production
