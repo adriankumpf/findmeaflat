@@ -4,7 +4,7 @@ Crawls popular German real estate portals for new listings. Notifications are
 sent via [Telegram](https://telegram.org).
 
 **Note**: This project is not in active use anymore. However, the crawled pages
-continue to change regularity. So please open an issue / make a PR if a page
+continue to change regularly. So please open an issue / make a PR if a page
 does not get crawled correctly.
 
 ## Prerequisites
@@ -46,7 +46,8 @@ For the Telegram notification to work you need to create a [Telegram
 bot](https://core.telegram.org/bots). Follow the [instructions
 here](https://core.telegram.org/bots#botfather) to create one and to get the
 `token` for the bot. Since bots are not allowed to contact users, you need to
-send a message first. Afterwards, retrieve your `chatId` by running `$ curl -X GET https://api.telegram.org/botYOUR_API_TOKEN/getUpdates`.
+send a message first. Afterwards, retrieve your `chatId` by running
+`$ curl -X GET https://api.telegram.org/botYOUR_API_TOKEN/getUpdates`.
 
 ### 2. Configure the providers
 
