@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+
+- Add default parameter to `utils.isOneOf`
+
 ## [1.0.0] - 2018-12-08
 
 [unreleased]: https://github.com/adriankumpf/findmeaflat/compare/v1.0.0...HEAD
