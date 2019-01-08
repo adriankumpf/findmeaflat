@@ -5,6 +5,7 @@
 ### Fixed
 
 - Add default parameter to `utils.isOneOf`
+- Fix pagination of immoscout
 
 ## [1.0.0] - 2018-12-08
 
