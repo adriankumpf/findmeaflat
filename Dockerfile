@@ -1,14 +1,12 @@
-FROM node:10-alpine
-LABEL maintainer="adrian.kumpf@posteo.de"
+FROM node:14-alpine
 
 ENV NODE_ENV=production
 
 RUN mkdir /app
 WORKDIR /app
 
-COPY package.json .
-COPY yarn.lock .
-RUN yarn install
+COPY package.json package-lock.json .
+RUN npm ci
 
 COPY lib/ lib/
 COPY index.js .
