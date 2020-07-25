@@ -8,7 +8,13 @@ const INTERVAL = 15 * 60 * 1000
 const sources = fs.readdirSync(PATH).map((src) => require(`${PATH}/${src}`))
 
 function main() {
-  Promise.all(sources.map((s) => s.run().catch(console.error)))
+  Promise.all(
+    sources.map((s) =>
+      s.run().catch((e) => {
+        console.error('Caught Error: ' + util.inspect(e, true, 2, true))
+      })
+    )
+  )
 }
 
 setInterval(main, INTERVAL)
