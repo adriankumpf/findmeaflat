@@ -16,7 +16,7 @@ You can run the application as a Docker container with the following command:
 docker run -it --rm --name findmeaflat --init \
            -v $(pwd)/config.json:/app/conf/config.json \
            -v findmeaflat_db:/app/db \
-           docker.pkg.github.com/adriankumpf/findmeaflat/findmeaflat:latest
+           ghcr.io/adriankumpf/findmeaflat:latest
 ```
 
 ### Manual
@@ -150,7 +150,6 @@ Since `ebay Kleinanzeigen` and `WgGesucht` offer a very limited filtering of dis
 ```
 
 Listings which contain at least on of the given terms (ignoring case, only whole words) are removed.
-
 
 #### Max radius distance
 
