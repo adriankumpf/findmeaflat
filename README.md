@@ -16,7 +16,12 @@ You can run the application as a Docker container with the following command:
 docker run -it --rm --name findmeaflat --init \
            -v $(pwd)/config.json:/app/conf/config.json \
            -v findmeaflat_db:/app/db \
-           docker.pkg.github.com/adriankumpf/findmeaflat/findmeaflat:latest
+           creichel/findmeaflat:latest
+```
+
+Alternatively, you could also use the docker package from this repo:
+```
+docker.pkg.github.com/creichel/findmeaflat/findmeaflat:latest
 ```
 
 ### Docker Compose
