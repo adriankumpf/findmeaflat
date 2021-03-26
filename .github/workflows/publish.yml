@@ -15,7 +15,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: adriankumpf/findmeaflat/findmeaflat
+          repository: creichel/findmeaflat/findmeaflat
           tag_with_ref: true
           tags: latest
 
