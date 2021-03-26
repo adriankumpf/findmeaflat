@@ -73,6 +73,9 @@ Create a configuration file `config.json` with the following contents:
     "kleinanzeigen": {
       "url": "https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/..."
     },
+    "immosuchmaschine": {
+      "url": "https://www.immosuchmaschine.de/suche/..."
+    },
     "wggesucht": {
       "city": "Berlin",
       "cityKey": 8,
@@ -108,7 +111,7 @@ For the Telegram notification to work you need to create a [Telegram bot](https:
 
 Configure the providers like described below. To disable a provider just remove its entry from the configuration or set it to `false`.
 
-#### Ebay Kleinanzeigen, Immoscout, Immowelt and Immonet
+#### Ebay Kleinanzeigen, Immoscout, Immowelt, Immonet and Immosuchmaschine
 
 ```json
 "providers": {
@@ -123,7 +126,10 @@ Configure the providers like described below. To disable a provider just remove 
   },
   "immonet": {
     "url": "http://www.immonet.de/..."
-  }
+  },
+  "immosuchmaschine": {
+    "url": "https://www.immosuchmaschine.de/suche/..."
+  },
 }
 ```
 
