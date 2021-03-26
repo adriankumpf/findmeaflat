@@ -16,7 +16,32 @@ You can run the application as a Docker container with the following command:
 docker run -it --rm --name findmeaflat --init \
            -v $(pwd)/config.json:/app/conf/config.json \
            -v findmeaflat_db:/app/db \
-           docker.pkg.github.com/adriankumpf/findmeaflat/findmeaflat:latest
+           creichel/findmeaflat:latest
+```
+
+Alternatively, you could also use the docker package from this repo:
+```
+docker.pkg.github.com/creichel/findmeaflat/findmeaflat:latest
+```
+
+### Docker Compose
+
+Of course, you can as well create a container with docker compose. You need to set the `user` values to the `User ID` and `Group ID` so the container can acutally write into the database file if you want to have and use it locally.
+
+Example:
+```yaml
+version: "2"
+
+services:
+  findmeaflat:
+    image: creichel/findmeaflat:latest
+    container_name: findmeaflat
+    volumes:
+      - <your-path>/conf/config.json:/app/conf/config.json
+      - <your-path>/db/:/app/db/
+    restart: unless-stopped
+    network_mode: host
+    user: '100:100'
 ```
 
 ### Manual
@@ -47,6 +72,9 @@ Create a configuration file `config.json` with the following contents:
     },
     "kleinanzeigen": {
       "url": "https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/..."
+    },
+    "immosuchmaschine": {
+      "url": "https://www.immosuchmaschine.de/suche/..."
     },
     "wggesucht": {
       "city": "Berlin",
@@ -83,7 +111,7 @@ For the Telegram notification to work you need to create a [Telegram bot](https:
 
 Configure the providers like described below. To disable a provider just remove its entry from the configuration or set it to `false`.
 
-#### Ebay Kleinanzeigen, Immoscout, Immowelt and Immonet
+#### Ebay Kleinanzeigen, Immoscout, Immowelt, Immonet and Immosuchmaschine
 
 ```json
 "providers": {
@@ -98,7 +126,10 @@ Configure the providers like described below. To disable a provider just remove 
   },
   "immonet": {
     "url": "http://www.immonet.de/..."
-  }
+  },
+  "immosuchmaschine": {
+    "url": "https://www.immosuchmaschine.de/suche/..."
+  },
 }
 ```
 

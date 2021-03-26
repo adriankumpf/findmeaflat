@@ -12,6 +12,9 @@
       "kleinanzeigen": {
         "url": "https://www.ebay-kleinanzeigen.de/s-wohnung-mieten/berlin/anzeige:angebote/preis::9999/wohnung/k0c203l3331+wohnung_mieten.qm_i:99,"
       },
+      "immosuchmaschine": {
+        "url": "https://www.immosuchmaschine.de/suche/?orderby=obj.created_date&sortmode=1&newsearch=1&district_id%5B%5D=&muni_id%5B%5D=&street_id%5B%5D="
+      },
       "wggesucht": {
         "city": "Berlin",
         "cityKey": 8,
