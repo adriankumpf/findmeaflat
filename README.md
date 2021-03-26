@@ -19,6 +19,26 @@ docker run -it --rm --name findmeaflat --init \
            docker.pkg.github.com/adriankumpf/findmeaflat/findmeaflat:latest
 ```
 
+### Docker Compose
+
+Of course, you can as well create a container with docker compose. You need to set the `user` values to the `User ID` and `Group ID` so the container can acutally write into the database file if you want to have and use it locally.
+
+Example:
+```yaml
+version: "2"
+
+services:
+  findmeaflat:
+    image: creichel/findmeaflat:latest
+    container_name: findmeaflat
+    volumes:
+      - <your-path>/conf/config.json:/app/conf/config.json
+      - <your-path>/db/:/app/db/
+    restart: unless-stopped
+    network_mode: host
+    user: '100:100'
+```
+
 ### Manual
 
 To run the bot directly, clone the repository, install the dependencies and start the application:
