@@ -61,6 +61,7 @@ Create a configuration file `config.json` with the following contents:
   },
   "wantedDistricts": ["Wedding", "Friedrichshain"],
   "blacklist": ["swap", "tausch", "wg"],
+  "maxDistanceInKilometres": "10",
   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
 }
 ```
@@ -149,3 +150,12 @@ Since `ebay Kleinanzeigen` and `WgGesucht` offer a very limited filtering of dis
 ```
 
 Listings which contain at least on of the given terms (ignoring case, only whole words) are removed.
+
+
+#### Max radius distance
+
+```json
+"maxDistanceInKilometres": "10",
+```
+
+Use this especially for Immonet results if you're annoyed about irrelevant results which are 50 kilometres away from your intended search radius.
