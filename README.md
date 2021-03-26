@@ -2,7 +2,7 @@
 
 Crawls popular German real estate portals for new listings. Notifications are sent via [Telegram](https://telegram.org).
 
-**Note**: This project is not in active use anymore. However, the crawled pages continue to change regularly. So please open an issue or create a PR if a page does not get crawled correctly anymore.
+**Note**: This project is no longer actively used by the author. However, the crawled pages are constantly evolving, which may cause them to no longer be crawled correctly. In this case, please open an issue (or even create a PR).
 
 ## Usage
 

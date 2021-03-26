@@ -7,6 +7,7 @@
 ### Enhancements
 
 - Add max radius filter setting (useful for Immonet) ([#25](https://github.com/adriankumpf/findmeaflat/pull/25) by [creichel](https://github.com/creichel))
+- Add number of rooms, property size to Telegram messages ([#25](https://github.com/adriankumpf/findmeaflat/pull/25) by [creichel](https://github.com/creichel))
 - Publish docker image to GitHub container registry
   - ⚠️ If you're using the Docker image, change the image from `docker.pkg.github.com/adriankumpf/findmeaflat/findmeaflat:latest` to `ghcr.io/adriankumpf/findmeaflat:latest`
   - The latest development version is available under the `edge` tag
@@ -14,7 +15,6 @@
 ### Bug Fixes
 
 - Fix crawler issues with Immowelt, Kleinanzeigen and Immonet ([#25](https://github.com/adriankumpf/findmeaflat/pull/25) by [creichel](https://github.com/creichel))
-- Add number of rooms, property size to Telegram messages ([#25](https://github.com/adriankumpf/findmeaflat/pull/25) by [creichel](https://github.com/creichel))
 
 ## [1.1.0] - 2020-07-30
 
