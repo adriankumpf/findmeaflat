@@ -190,3 +190,13 @@ Listings which contain at least on of the given terms (ignoring case, only whole
 ```
 
 Use this especially for Immonet results if you're annoyed about irrelevant results which are 50 kilometres away from your intended search radius.
+
+### 4. Set scraping options (optional)
+
+#### Scraping interval
+
+```json
+"intervalInMinutes" : 2
+```
+
+This sets the interval in minutes through which the bot is checking the given providers.

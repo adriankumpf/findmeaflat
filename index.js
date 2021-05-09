@@ -1,10 +1,13 @@
 require('rootpath')()
 
+const config = require('conf/config.json')
 const fs = require('fs')
 const util = require('util')
 
+console.log('Set scraping interval to ' + (config.intervalInMinutes ? config.intervalInMinutes : 5) + ' min')
+
 const PATH = './lib/sources'
-const INTERVAL = 5 * 60 * 1000
+const INTERVAL = (config.intervalInMinutes ? config.intervalInMinutes : 5)  * 60 * 1000
 
 const sources = fs.readdirSync(PATH).map((src) => require(`${PATH}/${src}`))
 
